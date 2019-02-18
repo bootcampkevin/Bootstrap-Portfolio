@@ -48,7 +48,7 @@ body {
     border-right: 0;
 }
 .nav-item:hover {
-    background-color: teal;    
+    background-color: #4AAAA5;    
 }
 .card-main {
     min-height: calc(100vh - 300px);
