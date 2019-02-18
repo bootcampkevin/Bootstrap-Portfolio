@@ -21,14 +21,15 @@ body {
 
 .navbar{
     border-bottom: 3px solid #cccccc;
-        
+    padding: 0;        
 } 
 .navbar-nav {
-    margin-right: 60px;    
+    margin-right: 90px;    
 }
 .navbar-brand {
     height: 90px;
-    margin-left: 60px;
+    margin: 0 0 0 90px;
+
     font-size: 28px;
     font-family: Georgia, "Times New Roman", Times, serif;
     background-color: #4AAAA5;
@@ -39,11 +40,10 @@ body {
     /* height: 90px; */
     font-size: 18px;
     line-height: 30px;
-    border-right: 1px solid #999999; 
-    /*TODO why padding by border wont work? */
-    margin: 0 8px;
+    border-right: 1px solid #d2d2d2;         
+    /*TODO !!!!!!! why padding by border wont work? */
+    /* margin: 0 8px; */
 }
-
 .nav-item:last-child{
     border-right: 0;
 }
@@ -55,14 +55,35 @@ body {
     margin-bottom: 125px;
     width: 660px;
 }
+.card-container{    
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+.btn-title{
+    border-radius: 0;   
+    width: 250px;
+    height: 65px;
+    line-height: 45px;
+    color: white;
+    /* background: #4aaaa5; */
+    z-index: 50;
+    position: relative;
+    bottom: 85px;
+    left: 0;    
+    overflow: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 h1{ 
     font-size: 28px;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #4AAAA5;
     font-weight: bold;
 }
-
-
 .page-footer{
     background-color: #666666;
     border-top: 3px solid #4AAAA5;
