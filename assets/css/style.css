@@ -1,0 +1,84 @@
+/*
+
+QUESTIONS:
+~34
+TODO why padding by border wont work? 
+
+*/
+
+
+ 
+body {
+    background-image: url("../img/bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    position: relative;
+}
+
+.navbar{
+    border-bottom: 3px solid #cccccc;
+        
+} 
+.navbar-nav {
+    margin-right: 60px;    
+}
+.navbar-brand {
+    height: 90px;
+    margin-left: 60px;
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #4AAAA5;
+    font-weight: bold;
+}
+
+.nav-item {
+    /* height: 90px; */
+    font-size: 18px;
+    line-height: 30px;
+    border-right: 1px solid #999999; 
+    /*TODO why padding by border wont work? */
+    margin: 0 8px;
+}
+
+.nav-item:last-child{
+    border-right: 0;
+}
+.nav-item:hover {
+    background-color: teal;    
+}
+.card-main {
+    min-height: calc(100vh - 300px);
+    margin-bottom: 125px;
+    width: 660px;
+}
+h1{ 
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #4AAAA5;
+    font-weight: bold;
+}
+
+
+.page-footer{
+    background-color: #666666;
+    border-top: 3px solid #4AAAA5;
+    position: absolute;
+    /* fixed differs from absolute? */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 60px;  */   
+    /* line-height: 60px;  */   
+    z-index:-9999;
+}
+
+.footer-copyright{
+    font-size: 12px;
+    font-weight: lighter;
+    /*TODO light and bold don't affect anything? */ 
+}
+        
