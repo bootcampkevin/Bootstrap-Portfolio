@@ -12,15 +12,21 @@
     <title>Bootstrap Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-light navbar-expand bg-light pb-0">
-        <a href="#" class="navbar-brand border border-white h1 p-4 text-white">Kevin Flanagan</a>
-        <div class="d-flex flex-row ml-auto bg-highlight" id="navbarMain">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active p-3" href="index.html">About</a>
-                <a class="nav-item nav-link active p-3" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link disabled p-3" href="contact.html">Contact</a>
-            </div>
+      <div class="mr-auto d-sm-none d-inline-block w-100 bg-white"><a href="#" class="navbar-brand border h1 p-4 text-white">Kevin Flanagan</a></div><!--<img src="//placehold.it/300?text=KEVIN FLANAGAN" alt="logo">-->
+      <nav class="navbar navbar-light navbar-expand-md bg-light pb-0">
+        <a href="#" class="navbar-brand border h1 p-4 text-white d-none d-sm-block">Kevin Flanagan</a>
+      
+        <button class="navbar-toggler mr-5 ml-3" type="button" data-toggle="collapse" data-target="#navbarMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      <div class="collapse navbar-collapse ml-auto justify-content-end" id="navbarMain">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active p-3" href="index.html">About</a>
+          <a class="nav-item nav-link active p-3" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link disabled p-3" href="contact.html">Contact</a>
         </div>
+      </div>
     </nav>
 
     <div class="container mt-5">
