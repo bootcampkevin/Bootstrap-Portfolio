@@ -22,7 +22,8 @@ body {
     padding: 0;        
 } 
 .navbar-nav {
-    margin-right: 90px;    
+    margin-right: 90px; 
+    flex-direction: row;   
 }
 .navbar-brand {
     height: 90px;
@@ -73,8 +74,9 @@ body {
     border-radius: 0;   
     /* width: 250px; */
     width: 90%;
-    /* height: 45px;     */
-    line-height: calc(3vh);   
+    height: 25%;
+    /* line-height: calc(3vh);    */
+    /* color: white;     */
     color: white;    
     position: absolute;
     top: 80%;
@@ -89,11 +91,28 @@ body {
        
     width: 100%;
     /* padding: 15px; */
-    margin-bottom: 0 auto;
+    /* padding: 15px 0; */
+    margin: 0 auto;
     font-weight: 300;
     background: #4aaaa5;
 }
-.col-md-4{
+
+/*attempting to fix the responsive text*/
+.btn.btn-title h3{
+    
+    /* position: relative; */
+    /* top: 15%; */
+    /* left: 35%; */
+    /* color: red; */
+    /* font-size: calc(vh*129); */
+    /* padding: calc(vh*2%)px 0 0 0; */
+    /* font-size: calc(vh*2%)px; */
+    /* line-height: calc(5vh); */
+    /* font-size: calc(2vw*50%); */
+    /* font-size-adjust: inherit; */
+}
+/*wrapper used to override bootstrap .col to remove the outside margins for the tile bar.*/
+.wrapper .col-md-4{
     padding-left: 0;
     padding-right: 0;
     margin-left: 15px;
